@@ -1,0 +1,91 @@
+:root {
+    --color: #e6007e;
+    -txt: rgb(185, 185, 185)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* container div */
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content,
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* left-side */
+
+
+/* .glass
+    background: rgb(133, 126, 126), rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2rem);
+    z-index: 3;
+*/
+
+.image {
+    background-image: url(_.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    height: auto;
+    padding: 0 0 35px 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 60vh;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: rgb(216, 168, 35);
+}
+
+
+/* right side */
+
+.right {
+    width: 60vw;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.text-left {
+    padding: 3vw;
+}
+
+.form-title {
+    padding: 2rem 0 1.2rem 0;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.log-in {
+    margin-top: 2rem;
+}
+
+button {
+    size: 5rem;
+    color: #e6007e;
+    background-color: aqua;
+    border-radius: 15%;
+    -webkit-text-stroke-color: rgb(162, 0, 255);
+}
